@@ -1,0 +1,51 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.total-board{
+    width:960px;
+    height: 1242px;
+    border: 2px solid black;
+}
+
+.peg{
+    background-color:grey;
+    height:20px;
+    width:20px;
+    border-radius:10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left:50px;
+    display:inline-block;
+    position:relative;
+
+
+}
+
+.peg-group{
+    height:25px;
+    width:150px;
+
+}
+
+.group-of-five{
+    margin-top:70px;
+}
+
+.left-side{
+    width: 420px;
+    height:1242px;
+    display:inline-block;
+}
+
+
+.right-side{
+    width: 200px;
+    height: 1242px;
+    float: right;
+    position: relative;
+
+}
+    

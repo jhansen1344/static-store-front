@@ -1,0 +1,41 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+.total-board{
+    width:960px;
+    height: 960px;
+    border: 2px solid black;
+}
+
+.black-row{
+    min-width:960px;
+    height:120px;
+    z-index:2;
+
+}
+
+.color-row{
+    min-width:960px;
+    height:120px;
+}
+    
+
+.square-black{
+    height:120px;
+    width:120px;
+    background-color:black;
+    float:left;
+
+}
+
+.square-color{
+    height:120px;
+    width:120px;
+    background-color:red;
+    float:left;
+
+}

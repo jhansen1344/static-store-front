@@ -1,0 +1,57 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+.total-board{
+    width:960px;
+    height: 1242px;
+    border: 2px solid black;
+}
+
+.one-row{
+    min-width:960px;
+    height:311px;
+    z-index:2;
+}
+
+.one-game{
+    width: 309px;
+    height: 309px;
+    display: block;
+    float: left;
+    padding-left: 8px;
+}
+
+.double-black{
+    width:100px;
+    height:100px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    display:block;
+    float:left;
+}
+
+.bottom-black{
+        width:100px;
+        height:100px;
+        border-bottom: 2px solid black;
+        display:block;
+        float:left;
+}
+
+.right-black{
+    width:100px;
+    height:100px;
+    border-right: 2px solid black;
+    display:block;
+    float:left;
+}
+
+
+
+
+
+}

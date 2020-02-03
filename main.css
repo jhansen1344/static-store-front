@@ -1,0 +1,191 @@
+/*Common elements font-family,, font-sie, background and positioning, h1's, p's, a's, wrapper*/
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#F19F4D;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+}
+
+button{
+    float: right;
+    margin-right: 0.5em;
+}
+
+h3{
+    margin: 0 1em;
+    font-size: 1em;
+}
+
+a, a:visited{
+    color:#F9CF00;
+}
+
+a:hover{
+    color:#d9d9d9;
+
+}
+
+.content{
+    flex: 1 0 auto;
+    margin-top:auto;
+}
+
+/*Header*/
+header{
+    background-color:#4484CE;
+    width: 100%;
+    height: 200px;
+    display:flex;
+    z-index:1;
+}
+
+#logo{
+    margin:0;
+    background-color: #F9CF00;
+    height: 200px;
+    width: 200px;
+    float:left;
+
+}
+
+/* nav menu*/
+nav{
+    display:inline-block;
+    min-width: 300px;
+    margin-top: 11em;
+    margin-left: 1em;
+    flex-grow:2;
+
+
+
+}
+
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style:none;
+    overflow:hidden;
+    
+}
+
+nav ul li{
+    float: left;
+    padding-left: 1em;
+
+}
+
+li a .dropbtn{
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color:#4484ce;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F19F4d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+      color: #d9d9d9;
+      padding: 12px 16px;
+      display: block;
+      text-align: left;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* contact form */
+  
+  
+#contact {
+    margin-top:1em;
+    margin-right: 2em;
+    width: 240px;
+    white-space: nowrap;
+}
+
+
+#contact h5{
+    margin:.2em;
+}
+
+#contact form{ 
+    float: left;
+
+}
+
+#submit-button{
+    float:right;
+    margin-left:.2em;
+}
+/*Main Section*/
+
+#main{
+    background:transparent;
+    width: 100%;
+    position: relative;
+    
+}
+
+#main h1{
+    margin-left: 1.5em;
+}
+
+#panel-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.panel{
+    background-color:#D7CDC7;
+    display: block;
+    float: left;
+    width: 500px;
+    height: 360px;
+    border: .5px solid black;
+    text-transform:uppercase;
+}
+
+.panel img{
+    width:500px;
+    height:333px;
+    margin:0;
+}
+
+
+/*footer Section*/
+
+#footer{
+    background-color: #4484CE;
+    width: 100%;
+    height: 4em;
+    flex-shrink:0;
+}
+#footer p{
+    margin-top:1.5em;
+    margin-left: 1.5em;
+    font-size:0.2emem;
+}

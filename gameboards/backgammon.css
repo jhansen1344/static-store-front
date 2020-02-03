@@ -1,0 +1,64 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+.total-board{
+    width:960px;
+    height: 1242px;
+    border: 2px solid black;
+}
+
+.triangle-right-black{
+    width: 0;
+    height: 0;
+    border-top: 51.25px solid transparent;
+    border-left: 384px solid black;
+    border-bottom: 51.25px solid transparent;
+}
+
+.triangle-right-gray{
+    width: 0;
+    height: 0;
+    border-top: 51.25px solid transparent;
+    border-left: 384px solid gray;
+    border-bottom: 51.25px solid transparent;
+}
+
+.left-side{
+    margin-top:6px;
+    width:40%;
+    height: 1200px;
+    position:relative;
+    float: left;  
+}
+
+.triangle-left-black{
+    width: 0;
+    height: 0;
+    border-top: 51.25px solid transparent;
+    border-right: 384px solid black;
+    border-bottom: 51.25px solid transparent;
+}
+
+.triangle-left-gray{
+    width: 0;
+    height: 0;
+    border-top: 51.25px solid transparent;
+    border-right: 384px solid gray;
+    border-bottom: 51.25px solid transparent;
+
+}
+
+.right-side{
+    margin-top:6px;
+    width:40%;
+    height: 1200px;
+    position:relative;
+    float: right;
+
+}
+    
+}

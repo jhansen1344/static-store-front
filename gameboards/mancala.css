@@ -1,0 +1,45 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+.total-board{
+    width:960px;
+    height: 1242px;
+    border: 2px solid black;
+}
+
+.end-piece{
+    margin:auto;
+    margin-top: 35px;
+    background-color:grey;
+    border-radius:57.5px;
+    border:1px solid black;
+    width:800px;
+    height:115px;
+    z-index:2;
+
+
+}
+
+.piece-row{
+    margin:auto;
+    margin-top:35px;
+    width:960px;
+    height: 115px;
+    
+
+}
+
+.ind-piece{
+    background-color: grey;
+    border-radius:57.5px;
+    border:1px solid black;
+    width: 200px;
+    height: 115px;
+    display:inline-block;
+    margin-left:186px;
+    
+}
